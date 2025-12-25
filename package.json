@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "build:testimonial-card": "cd testimonial-card && npm install && npm run build",
+    "deploy:testimonial-card": "gh-pages -d testimonial-card/dist -s testimonial-card --src '**/*'"
+  }
+}

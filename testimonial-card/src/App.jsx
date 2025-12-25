@@ -13,7 +13,7 @@ export const Card = () => {
         <div className="testimonial-card">
             <div className="profile-card">
                 <img
-                    src='/profile-thumbnail.png'
+                    src='profile-thumbnail.png'
                     alt='profile'
                     className="profile-image"
                 />
