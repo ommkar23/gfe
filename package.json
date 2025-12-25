@@ -4,6 +4,6 @@
   },
   "scripts": {
     "build:testimonial-card": "cd testimonial-card && npm install && npm run build",
-    "deploy:testimonial-card": "gh-pages -d testimonial-card/dist -s testimonial-card --src '**/*'"
+    "deploy:testimonial-card": "gh-pages -d testimonial-card/dist --dest testimonial-card --src '**/*' -m 'Deploy testimonial-card'"
   }
 }
