@@ -5,7 +5,7 @@
   "scripts": {
     "build:testimonial-card": "cd testimonial-card && npm install && npm run build",
     "deploy:testimonial-card": "gh-pages -d testimonial-card/dist --dest testimonial-card --src '**/*' -m 'Deploy testimonial-card'",
-    "build:blog-card": "cd testimonial-card && npm install && npm run build",
+    "build:blog-card": "cd blog-card && npm install && npm run build",
     "deploy:blog-card": "gh-pages -d blog-card/dist --dest blog-card --src '**/*' -m 'Deploy blog-card'"
   }
 }

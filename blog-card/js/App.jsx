@@ -8,7 +8,8 @@ export const App = () => {
     return (
         <div className='app'>
             <Routes>
-                <Route path='' element={<BlogCard />} />
+                <Route index element={<BlogCard />} />
+                <Route path='gfe/blog-card/' element={<BlogCard />} />
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </div>
