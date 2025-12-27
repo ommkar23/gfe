@@ -1,0 +1,148 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
+  padding: 200px 0px;
+}
+
+.card {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: #ffffff;
+  padding: 24px 16px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.10);
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.profile-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.user-img {
+  width: 64px;
+  height: 64px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.user-name {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #171717;
+}
+
+.user-des {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #525252;
+}
+
+.user-work {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #525252;
+}
+
+.contact-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+  background-color: #4338ca;
+  padding: 10px 16px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.10);
+}
+
+.contact-cta-text {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.section-social-cta {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.container-social-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.social-cta {
+  width: 20px;
+  height: 20px;
+}
