@@ -9,7 +9,7 @@ export const App = () => {
         <div className='app'>
             <Routes>
                 <Route index element={<BlogCard />} />
-                <Route path='gfe/blog-card/' element={<BlogCard />} />
+                {/* <Route path='gfe/blog-card/' element={<BlogCard />} /> */}
                 <Route path='*' element={<NotFound />} />
             </Routes>
         </div>
